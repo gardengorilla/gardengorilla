@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Garden Gorilla | Garden Design</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background: #f6a7b5; /* pale hot pink */
+      color: #2f3b2f;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 60px 30px;
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      margin-top: 50px;
+      font-size: 2rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .tagline {
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      background: #3a6b35;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 40px;
+      font-weight: bold;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #f4f8f4;
+      padding: 20px;
+      border-radius: 15px;
+    }
+
+    footer {
+      margin-top: 60px;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>Garden Gorilla</h1>
+    <p class="tagline">Garden Design · Grow. Live. Thrive.</p>
+
+    <p>
+      Garden Gorilla creates calm, beautiful, low-stress gardens for Inner West homes.
+      From first ideas to finished spaces — we turn chaos into confidence.
+    </p>
+
+    <a class="button" href="mailto:hello@gardengorilla.com.au">
+      Book a Garden Consult
+    </a>
+
+    <h2>What We Do</h2>
+
+    <div class="services">
+      <div class="card">
+        <h3>Garden Consults</h3>
+        <p>On-site advice, layout ideas, plant guidance, and practical next steps.</p>
+      </div>
+
+      <div class="card">
+        <h3>Garden Design</h3>
+        <p>Clear, achievable garden plans tailored to your space and lifestyle.</p>
+      </div>
+
+      <div class="card">
+        <h3>Planting & Styling</h3>
+        <p>Plant palettes, sourcing, and styling that make gardens feel finished.</p>
+      </div>
+    </div>
+
+    <h2>Meet Gigi</h2>
+    <p>
+      Gigi is smart, sassy, and deeply plant-obsessed. She scopes the site, designs the plan,
+      and makes sure your garden works beautifully in real life — not just on paper.
+    </p>
+
+    <h2>Service Area</h2>
+    <p>
+      Inner West Sydney — Marrickville, Dulwich Hill, Summer Hill, Petersham, Newtown and surrounds.
+    </p>
+
+    <footer>
+      © Garden Gorilla Garden Design · Sydney
+    </footer>
+
+  </div>
+
+</body>
+</html>
